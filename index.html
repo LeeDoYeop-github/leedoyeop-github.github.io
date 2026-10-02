@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fa">
+  <title>Lee Doyeop — Developer Portfolio</title>
+  <meta name="description" content="Lee Doyeop의 개발 포트폴리오. TypeScript, AI 에이전트 협업, 런타임 안정성을 중심으로 DYClaw 프로젝트와 기술을 소개합니다.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232552ee'/%3E%3Ctext x='6' y='28' font-family='Arial' font-size='26' font-weight='700' fill='white'%3Edy%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="Lee Doyeop 홈"><span class="brand-mark">dy<span>·</span></span><span class="brand-name">LEE DOYEOP<br><span>DEVELOPER PORTFOLIO</span></span></a>
+    <nav aria-label="주 메뉴"><a href="#work">프로젝트</a><a href="#stack">기술</a><a href="#contact">연결</a></nav>
+    <a class="header-github" href="https://github.com/LeeDoYeop-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-top"><span class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span> SOFTWARE · SYSTEMS · AI</span><span class="edition">PORTFOLIO / 2026</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="intro">안녕하세요, Lee Doyeop입니다.</p>
+          <h1 id="hero-title">복잡한 흐름을,<br><span>작동하는</span><br>시스템으로.</h1>
+          <p class="hero-description">TypeScript를 중심으로 AI 에이전트의 협업과<br class="desktop-break"> 시스템의 실행 흐름을 탐구합니다.</p>
+          <a class="button primary" href="#work">프로젝트 살펴보기 <span class="button-dot" aria-hidden="true"></span></a>
+        </div>
+        <div class="hero-system" aria-label="DYClaw 에이전트 협업 구조">
+          <div class="system-heading"><span>PROJECT IN FOCUS</span><span class="system-number">01 / DYCLAW</span></div>
+          <div class="system-title">One request.<br><em>Multiple perspectives.</em></div>
+          <div class="flow-input"><span class="mono">INPUT</span><span>하나의 개발 요청</span><span class="flow-symbol" aria-hidden="true">↓</span></div>
+          <div class="role-grid" role="group" aria-label="에이전트 역할 선택">
+            <button type="button" class="role active" data-role="owner" aria-pressed="true"><span class="role-index">01</span><strong>Owner</strong><span>구현 · 통합</span></button>
+            <button type="button" class="role" data-role="reviewer" aria-pressed="false"><span class="role-index">02</span><strong>Reviewer</strong><span>검토 · 피드백</span></button>
+            <button type="button" class="role" data-role="arbiter" aria-pressed="false"><span class="role-index">03</span><strong>Arbiter</strong><span>필요할 때 중재</span></button>
+          </div>
+          <div class="role-description" aria-live="polite"><span class="mono" id="role-label">OWNER / IMPLEMENTATION</span><p id="role-copy">요청을 받아 작업을 진행하고, 검토 결과를 반영해 최종 응답을 통합합니다.</p></div>
+          <div class="system-footer"><span>Discord 기반 멀티에이전트 협업</span><span class="mono">TRIBUNAL</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>코드와 문서에서 출발한 프로젝트 기록</span><a href="#work">SCROLL TO EXPLORE</a></div>
+    </section>
+
+    <section id="work" class="work-section" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-heading"><div><span class="eyebrow">01 / SELECTED WORK</span><h2 id="work-title">프로젝트를 깊게,<br>구현을 구체적으로.</h2></div><p>기능 목록을 넘어,<br>시스템이 어떻게 연결되는지 살펴봅니다.</p></div>
+        <article class="featured-project">
+          <div class="project-lead">
+            <div class="project-kicker"><span>FEATURED PROJECT</span><span class="privacy-label">비공개 저장소</span></div>
+            <h3>DYClaw<span class="project-period">.</span></h3>
+            <p class="project-subtitle">Discord 위의 AI 개발 협업 시스템</p>
+            <p class="project-intro">EJClaw 기반 개인 확장 프로젝트입니다. Owner·Reviewer·Arbiter의 협업 구조 위에서 작업 실행의 멈춤 방지, 상태 전이의 일관성, 역할별 메모리 접근을 개선했습니다.</p>
+            <div class="tags" aria-label="프로젝트 기술"><span>TypeScript</span><span>Bun</span><span>SQLite</span><span>Discord.js</span></div>
+            <div class="project-context"><span class="mono">PROJECT CONTEXT</span><p>EJClaw와 NanoClaw 계열 코드에서 출발했습니다. 에이전트 역할 분리와 SQLite WAL 구조를 기반으로 런타임과 협업 흐름을 확장했습니다.</p><a href="https://github.com/phj1081/EJClaw" target="_blank" rel="noopener noreferrer">기반 프로젝트 EJClaw</a></div>
+          </div>
+          <div class="project-engineering">
+            <span class="eyebrow">ENGINEERING NOTES</span>
+            <details open><summary><span class="note-number">01</span><span>메시지 루프의 멈춤 방지</span><span class="details-icon" aria-hidden="true">+</span></summary><div class="note-content"><p>최종 응답 처리를 큐로 넘겨 메시지 루프가 막히는 경로를 개선했습니다. 출력 처리 오류, 프로세스 타임아웃, Discord 연결 실패를 다루는 변경과 회귀 테스트도 포함했습니다.</p><span class="note-tag">Queue lifecycle · Process liveness</span></div></details>
+            <details><summary><span class="note-number">02</span><span>상태 전이와 복구의 일관성</span><span class="details-icon" aria-hidden="true">+</span></summary><div class="note-content"><p>상태 업데이트와 이벤트 기록을 같은 트랜잭션에서 처리합니다. 충돌한 업데이트가 이력을 남기지 않도록 하고, 재시작 시 복구 조건을 검증하는 테스트를 추가했습니다.</p><span class="note-tag">SQLite · Event journal · Recovery</span></div></details>
+            <details><summary><span class="note-number">03</span><span>역할별 메모리 연결</span><span class="details-icon" aria-hidden="true">+</span></summary><div class="note-content"><p>기존 메모리 저장소를 질의·최근성 기반 검색과 연결하고, 재개된 세션에도 매 턴 정보를 전달합니다. 메모리 읽기는 각 역할에 제공하고 쓰기는 Owner에 제한합니다.</p><span class="note-tag">Memory recall · Role-scoped access</span></div></details>
+            <div class="stack-line"><span>INTERFACE</span><p>React · Vite</p><span>QUALITY</span><p>Vitest · ESLint · TypeScript</p></div>
+          </div>
+        </article>
+
+        <div class="repository-heading"><h3>공개 포크</h3><p>원본 프로젝트의 코드와 구조를 살펴볼 수 있습니다.</p></div>
+        <div class="repo-list">
+          <a class="repo-row" href="https://github.com/LeeDoYeop-github/ocean-guardian" target="_blank" rel="noopener noreferrer"><span class="repo-index">02</span><div class="repo-main"><h4>Ocean Guardian <span>FORK</span></h4><p>관측소 선택과 수온·기온·염분 카드를 보여주는 해양 정보 UI 프로토타입.</p><span class="repo-origin">원본 Dayoooun/ocean-guardian · 샘플 데이터 기반</span></div><span class="repo-tech">Next.js<br>React · Tailwind CSS</span><span class="repo-open" aria-label="GitHub에서 보기">+</span></a>
+          <a class="repo-row" href="https://github.com/LeeDoYeop-github/nest" target="_blank" rel="noopener noreferrer"><span class="repo-index">03</span><div class="repo-main"><h4>Nest <span>FORK</span></h4><p>TypeScript 기반 Node.js 서버 프레임워크의 원본 포크.</p><span class="repo-origin">원본 nestjs/nest · 추가된 커밋 없음</span></div><span class="repo-tech">TypeScript<br>Node.js</span><span class="repo-open" aria-label="GitHub에서 보기">+</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="stack-section wrap" aria-labelledby="stack-title">
+      <div class="stack-intro"><span class="eyebrow">02 / TOOLKIT</span><h2 id="stack-title">아이디어를<br>실행으로 연결하는<br><span>도구들.</span></h2><p>DYClaw의 의존성과 실행 구조에서<br>확인할 수 있는 기술입니다.</p></div>
+      <div class="toolkit">
+        <div class="toolkit-row"><span class="toolkit-number">01</span><div><h3>Language & Runtime</h3><p>TypeScript <span>/</span> Bun <span>/</span> Node.js</p><span class="toolkit-description">에이전트 실행과 서버 로직의 기반</span></div></div>
+        <div class="toolkit-row"><span class="toolkit-number">02</span><div><h3>Agents & Integration</h3><p>Claude Agent SDK <span>/</span> Codex SDK<br>Discord.js <span>/</span> MCP SDK</p><span class="toolkit-description">모델, 도구, 대화 채널 사이의 연결</span></div></div>
+        <div class="toolkit-row"><span class="toolkit-number">03</span><div><h3>Data & Interface</h3><p>SQLite <span>/</span> React <span>/</span> Vite</p><span class="toolkit-description">작업 상태 저장과 대시보드 인터페이스</span></div></div>
+        <div class="toolkit-row"><span class="toolkit-number">04</span><div><h3>Quality & Workflow</h3><p>Vitest <span>/</span> ESLint <span>/</span> Git</p><span class="toolkit-description">테스트, 코드 검사, 변경 이력 관리</span></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><span class="eyebrow">03 / LET’S CONNECT</span><h2 id="contact-title">다음 이야기는<br><em>GitHub에서.</em></h2></div><div class="contact-copy"><p>프로젝트의 맥락을 더 살펴보고 싶다면,<br>GitHub 프로필에서 이어갈 수 있습니다.</p><a class="button light" href="https://github.com/LeeDoYeop-github" target="_blank" rel="noopener noreferrer">GitHub 프로필 보기 <span class="button-dot" aria-hidden="true"></span></a><span class="contact-handle">@LeeDoYeop-github</span></div></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="footer-wordmark" href="#">Lee Doyeop<span>·</span></a><span>© 2026 LEE DOYEOP</span><a href="#main">BACK TO TOP</a></footer>
+</body>
+</html>
