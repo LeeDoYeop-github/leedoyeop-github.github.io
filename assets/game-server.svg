@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 230" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Game server architecture</title>
+  <desc id="desc">An API connects to a group of game server containers and backups. This is a conceptual architecture illustration.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" stroke="#29322D" stroke-opacity=".4"/></pattern>
+    <linearGradient id="panel" x1="215" y1="36" x2="388" y2="196" gradientUnits="userSpaceOnUse"><stop stop-color="#25302A"/><stop offset="1" stop-color="#18211C"/></linearGradient>
+    <linearGradient id="link" x1="134" y1="111" x2="445" y2="111" gradientUnits="userSpaceOnUse"><stop stop-color="#B8E6A3" stop-opacity=".75"/><stop offset="1" stop-color="#DCCA97" stop-opacity=".75"/></linearGradient>
+  </defs>
+  <rect width="600" height="230" fill="#101312"/>
+  <rect x="18" y="16" width="564" height="198" rx="16" fill="url(#grid)"/>
+  <path d="M28 40V29H39M572 190V201H561" stroke="#445147" stroke-width="1.5"/>
+  <path d="M135 112H214M390 112H445" stroke="url(#link)" stroke-width="2"/>
+  <path d="m184 107 5 5-5 5m239-10 5 5-5 5" stroke="#B8E6A3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="40" y="76" width="95" height="72" rx="16" fill="#1A221D" stroke="#526647"/>
+  <path d="m72 93-7 7 7 7m30-14 7 7-7 7m-13-18-5 22" stroke="#B8E6A3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="87.5" y="134" text-anchor="middle" fill="#F2F0E8" font-family="Arial, sans-serif" font-size="17" letter-spacing=".5">API</text>
+  <rect x="214" y="38" width="176" height="153" rx="22" fill="url(#panel)" stroke="#435541"/>
+  <path d="M235 60H257M347 169H369" stroke="#B8E6A3" stroke-opacity=".38" stroke-linecap="round"/>
+  <rect x="233" y="82" width="38" height="54" rx="8" fill="#161E19" stroke="#8EAD7F"/>
+  <rect x="283" y="70" width="38" height="66" rx="8" fill="#202A23" stroke="#B8E6A3"/>
+  <rect x="333" y="82" width="38" height="54" rx="8" fill="#161E19" stroke="#8EAD7F"/>
+  <path d="M241 96H263M241 103H263M291 87H313M291 94H313M341 96H363M341 103H363" stroke="#B8E6A3" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M246 123H258M296 123H308M346 123H358" stroke="#DCCA97" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+  <text x="302" y="163" text-anchor="middle" fill="#E4EADB" font-family="Arial, sans-serif" font-size="17">Containers</text>
+  <circle cx="487" cy="112" r="43" fill="#211F18" stroke="#6F6345"/>
+  <circle cx="487" cy="112" r="52" stroke="#DCCA97" stroke-opacity=".35" stroke-dasharray="3 8"/>
+  <path d="M487 86c11 0 20 3 20 7s-9 7-20 7-20-3-20-7 9-7 20-7Z" stroke="#DCCA97" stroke-width="1.7"/>
+  <path d="M467 93v12c0 4 9 7 20 7s20-3 20-7V93m-40 12v12c0 4 9 7 20 7s20-3 20-7v-12" stroke="#DCCA97" stroke-width="1.7"/>
+  <text x="487" y="185" text-anchor="middle" fill="#DCCA97" font-family="Arial, sans-serif" font-size="17">Backups</text>
+</svg>

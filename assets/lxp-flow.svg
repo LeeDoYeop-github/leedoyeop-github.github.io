@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 230" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">LXP notification flow</title>
+  <desc id="desc">LXP tasks and notices pass through a worker to Discord and email. This is a conceptual architecture illustration.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".8" fill="#3B3542"/></pattern>
+    <linearGradient id="worker" x1="224" y1="73" x2="354" y2="158" gradientUnits="userSpaceOnUse"><stop stop-color="#302A37"/><stop offset="1" stop-color="#211D28"/></linearGradient>
+  </defs>
+  <rect width="600" height="230" fill="#101312"/>
+  <rect x="18" y="16" width="564" height="198" rx="16" fill="url(#dots)"/>
+  <path d="M28 40V29H39M572 190V201H561" stroke="#4D4155" stroke-width="1.5"/>
+  <path d="M141 115H224m130 0h43c7 0 12-5 12-12V84c0-7 5-12 12-12h31m-55 43c7 0 12 5 12 12v19c0 7 5 12 12 12h31" stroke="#A48FBD" stroke-opacity=".7" stroke-width="2"/>
+  <path d="m185 110 5 5-5 5m248-53 5 5-5 5m0 76 5 5-5 5" stroke="#C9B5E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="48" y="67" width="89" height="92" rx="16" fill="#1A171E" stroke="#443C50" transform="rotate(-8 92.5 113)"/>
+  <rect x="42" y="76" width="99" height="82" rx="16" fill="#221D29" stroke="#807091"/>
+  <path d="M65 94h9m7 0h25M65 104h9m7 0h25" stroke="#C9B5E6" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="91.5" y="139" text-anchor="middle" fill="#F2F0E8" font-family="Arial, sans-serif" font-size="18" letter-spacing=".5">LXP</text>
+  <rect x="224" y="72" width="130" height="86" rx="20" fill="url(#worker)" stroke="#A48FBD"/>
+  <path d="M264 91h50m-42 9h34m-24 9h14" stroke="#C9B5E6" stroke-width="2" stroke-linecap="round"/>
+  <text x="289" y="140" text-anchor="middle" fill="#E9E0F2" font-family="Arial, sans-serif" font-size="17">Worker</text>
+  <path d="M243 174h92" stroke="#4D4155" stroke-dasharray="2 6" stroke-linecap="round"/>
+  <rect x="452" y="40" width="108" height="65" rx="16" fill="#1C251E" stroke="#536B49"/>
+  <path d="M488 53h37v15h-23l-7 5v-5h-7V53Z" stroke="#B8E6A3" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M497 60h19" stroke="#B8E6A3" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="506" y="92" text-anchor="middle" fill="#DDEBD5" font-family="Arial, sans-serif" font-size="17">Discord</text>
+  <rect x="452" y="126" width="108" height="65" rx="16" fill="#241F2B" stroke="#78658D"/>
+  <rect x="489" y="140" width="34" height="20" rx="3" stroke="#C9B5E6" stroke-width="1.5"/>
+  <path d="m490 142 16 10 16-10" stroke="#C9B5E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="506" y="178" text-anchor="middle" fill="#E9E0F2" font-family="Arial, sans-serif" font-size="17">Email</text>
+</svg>

@@ -4,7 +4,7 @@ GitHub Pages에서 호스팅하는 정적 개발 포트폴리오입니다. HTML,
 
 ## 구성
 
-- `index.html`: 소개, DYClaw 프로젝트, 공개 포크, 기술 스택, GitHub 연결
+- `index.html`: 소개, DYClaw, Game Onclick, LXP Notification, 공개 포크, 기술 스택, GitHub 연결
 - `styles.css`: 반응형 화면과 접근성 스타일
 - `script.js`: 에이전트 역할 설명 전환
 - `.nojekyll`: Jekyll 처리를 생략하는 GitHub Pages 설정
@@ -17,9 +17,14 @@ GitHub Pages에서 호스팅하는 정적 개발 포트폴리오입니다. HTML,
 ## 출처 및 표현 원칙
 
 - DYClaw는 비공개 EJClaw 기반 커스텀 프로젝트입니다. 사용자에게 공개를 허용받은 개요와 기술 스택만 소개하며 코드, 환경 값, 운영 정보는 포함하지 않습니다.
+- Game Onclick과 LXP Notification은 비공개 공동 저장소입니다. 사용자가 개요와 기술 스택 공개를 허용했으며, 참여 방식은 사용자가 확인한 ‘AI를 활용한 팀 공동 개발’로 표시합니다. 단독 구현이나 개별 기능 소유권을 주장하지 않습니다.
 - 공개 `ocean-guardian`과 `nest`는 포크입니다. 원본에서 추가된 커밋이 확인되지 않아 독자 구현이나 기여 실적으로 소개하지 않습니다.
 - Ocean Guardian의 데이터는 샘플이며 실시간 API나 PWA 구현을 주장하지 않습니다.
 - 취업 상태, 경력, 학력, 성과 수치, 이메일은 제공받지 않아 작성하지 않았습니다.
+
+## 디자인 자산
+
+차콜·아이보리·민트 팔레트와 반응형 프로젝트 카드를 사용합니다. 협업 노드와 프로젝트 SVG는 구조를 설명하는 개념 시각화이며, 실제 운영 화면이나 실시간 상태가 아닙니다. Pretendard Variable 1.3.9를 자체 호스팅하며 라이선스는 `assets/fonts/OFL.txt`에 포함합니다. 폰트 원본: https://github.com/orioncactus/pretendard
 
 ## 도메인 연결
 
